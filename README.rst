@@ -1,8 +1,12 @@
-Skeleton for creating your new project based on
+Skeleton for creating your new Java 8 project based on
 `Sinetja <https://github.com/sinetja/sinetja>`_.
 
-This project is for Java 8, using Java 8 syntax.
-If you use older Java, see `Sinetja-Skeleton <https://github.com/sinetja/sinetja-skeleton>`_.
+See also:
+
+* `Sinetja-Skeleton <https://github.com/sinetja/sinetja-skeleton>`_:
+  If you want to use older Java (without Java 8 lambda syntax).
+* `Sinetja-Scaleton <https://github.com/sinetja/sinetja-scaleton>`_:
+  If you want to use Scala.
 
 Run in development mode
 ~~~~~~~~~~~~~~~~~~~~~~~
