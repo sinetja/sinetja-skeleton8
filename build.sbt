@@ -1,6 +1,6 @@
 organization := "tv.cntt"
 
-name         := "sinetja-skeleton"
+name         := "sinetja-skeleton8"
 
 version      := "1.0-SNAPSHOT"
 
@@ -20,7 +20,7 @@ javacOptions in (Compile, doc) := Seq("-source", "1.8")
 
 //------------------------------------------------------------------------------
 
-libraryDependencies += "tv.cntt" % "sinetja" % "1.2-SNAPSHOT"
+libraryDependencies += "tv.cntt" % "sinetja" % "1.2"
 
 // Xitrum uses SLF4J, an implementation of SLF4J is needed
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.2"

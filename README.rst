@@ -1,6 +1,9 @@
 Skeleton for creating your new project based on
 `Sinetja <https://github.com/sinetja/sinetja>`_.
 
+This project is for Java 8, using Java 8 syntax.
+If you use older Java, see `Sinetja-Skeleton <https://github.com/sinetja/sinetja-skeleton>`_.
+
 Run in development mode
 ~~~~~~~~~~~~~~~~~~~~~~~
 
