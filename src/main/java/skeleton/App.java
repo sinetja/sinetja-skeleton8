@@ -3,18 +3,19 @@ package skeleton;
 import sinetja.Server;
 
 public class App {
-  public static void main(String[] args) {
-    new Server()
+    public static void main(String[] args) {
+        Server server = new Server(8000);
 
-    .GET("/", (req, res) -> {
-      res.respondText("Hello world");
-    })
+        server
+                .GET("/", (req, res) ->
+                        res.respondText("Hello world")
+                )
+                .GET("/hello/:name", (req, res) -> {
+                    String name = req.param("name");
+                    res.respondText("Hello " + name);
+                });
 
-    .GET("/hello/:name", (req, res) -> {
-      String name = req.param("name");
-      res.respondText("Hello " + name);
-    })
-
-    .start(8000);
-  }
+        server.start();
+        server.stopAtShutdown();
+    }
 }

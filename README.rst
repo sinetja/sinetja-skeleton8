@@ -24,13 +24,7 @@ To create Eclipse project:
 
   sbt/sbt eclipse
 
-To create IntelliJ project:
-
-::
-
-  sbt/sbt gen-idea
-
-You then can run the project inside Eclipse or IntelliJ.
+You then can run the project inside Eclipse.
 
 Distribute
 ~~~~~~~~~~
